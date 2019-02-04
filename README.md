@@ -2,5 +2,5 @@ Welcome to the ui-sample for neighborhood.com. This sample is a static replica o
 
 This sample was built with React, and could easily be updated to be responsive, handle state management with Redux or replace the static data with data grabbed from a RESTful API. I've enjoyed thinking of this feature and would love to discuss other ui component features that could bolster the user experience at neighborhoods.com.
 
-Feel free to take a look at the code and let me know if you have any questions you can direct them to https://henrymorrow.com/contact
+Feel free to take a look at the code and let me know if you have any questions you can direct them to hjmorrow23@gmail.com.
 
