@@ -1,0 +1,2526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> matches the snapshot 1`] = `
+<Header
+  neighborhoods={
+    Array [
+      Object {
+        "agent": "John Doe",
+        "city": "Chicago",
+        "name": "Beverly",
+        "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+        "rating": "5.0",
+        "starts": 5,
+        "state": "IL",
+        "topListings": Array [
+          Object {
+            "address": "4 Privet Drive",
+            "image": "house1.jpg",
+            "price": "$375,000",
+          },
+          Object {
+            "address": "1060 West Addison Street",
+            "image": "house2.jpg",
+            "price": "$290,000",
+          },
+          Object {
+            "address": "1323 Mockingbird Lane",
+            "image": "house3.jpg",
+            "price": "310,000",
+          },
+        ],
+      },
+      Object {
+        "agent": "Jane Doe",
+        "city": "Chicago",
+        "name": "Oakland",
+        "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+        "rating": "5.0",
+        "starts": 5,
+        "state": "IL",
+        "topListings": Array [
+          Object {
+            "address": "221B Baker Street",
+            "image": "house4.jpg",
+            "price": "$375,000",
+          },
+          Object {
+            "address": "425 Grove Street",
+            "image": "house5.jpg",
+            "price": "$290,000",
+          },
+          Object {
+            "address": "124 Conch Street",
+            "image": "house6.jpg",
+            "price": "310,000",
+          },
+        ],
+      },
+    ]
+  }
+>
+  <styled.header>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "hQwUEd",
+            "rules": Array [
+              "
+    max-height: 47px;
+    padding: .625rem 1.875rem;
+    position: relative;
+    z-index: 500;
+    border-bottom: 1px solid #dfdfdf;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        
+    }
+
+    .logo {
+        display: inline-block;
+        width: 235px;
+        height: 47px;
+        background: url(",
+              "neighborhoods-logo.png",
+              ") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-nav {
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+
+    .clear-right {
+        clear: right;
+        display: block;
+    }
+
+    .input-wrapper-long {
+        width: 636px !important;
+        max-width: 636px !important;
+        border 1px solid #dfdfdf !important;
+        padding-left: 5px !important;
+        padding-right: 35px;
+
+        .search-icon {
+            background-color: ",
+              [Function],
+              ";
+            color: ",
+              [Function],
+              ";
+            top: 0 !important;
+            left: calc(100% - 40px) !important;
+            padding: 9px 12px;
+            cursor: pointer;
+            transition: background-color .35s;
+            border-bottom: 3px solid ",
+              [Function],
+              ";
+        }
+
+        .search-icon:hover {
+            background-color: ",
+              [Function],
+              ";
+        }
+    }
+
+    .input-wrapper {
+        display: inline-block;
+        max-width: 420px;
+        width: 420px;
+        padding-left: 35px;
+        position: relative;
+        border: 1px solid ",
+              [Function],
+              ";
+        height: 40px;
+
+        .search-icon {
+            position: absolute;
+            display: inline-block;
+            top: 10px;
+            left: 10px;
+        }
+
+        .header-search {
+            width: 100%;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            height: calc(100% - 2px);
+            position: relative;
+            bottom: 0px;
+            right: 2px;
+        }
+
+        .header-search::placeholder{ 
+            color: ",
+              [Function],
+              ";
+        }
+
+        .header-search:active,
+        .header-search:focus {
+            outline: none;
+        }
+
+    }
+
+    .right-links {
+        margin-left: 32px;
+        color: ",
+              [Function],
+              ";
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 600;
+        transition: color .35s;
+    }
+
+    .right-links:hover {
+        color: ",
+              [Function],
+              ";
+    }
+
+    .search-results-wrapper {
+        display: none;
+    }
+
+",
+            ],
+          },
+          "displayName": "styled.header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <header
+        className="sc-bwzfXH hQwUEd"
+      >
+        <a
+          className="logo"
+          href=""
+        />
+        <nav
+          className="main-nav"
+        >
+          <ul
+            className="nav-list"
+          >
+            <li
+              className="input-wrapper"
+            >
+              <input
+                className="header-search"
+                id="js-header-search"
+                onFocus={[Function]}
+                placeholder="Search neighborhood, address, city, school, zip, MLS #"
+                type="text"
+              />
+              <span
+                className="search-icon"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon="search"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              </span>
+              <SearchResultsList
+                hideResults={[Function]}
+                neighborhoods={
+                  Array [
+                    Object {
+                      "agent": "John Doe",
+                      "city": "Chicago",
+                      "name": "Beverly",
+                      "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+                      "rating": "5.0",
+                      "starts": 5,
+                      "state": "IL",
+                      "topListings": Array [
+                        Object {
+                          "address": "4 Privet Drive",
+                          "image": "house1.jpg",
+                          "price": "$375,000",
+                        },
+                        Object {
+                          "address": "1060 West Addison Street",
+                          "image": "house2.jpg",
+                          "price": "$290,000",
+                        },
+                        Object {
+                          "address": "1323 Mockingbird Lane",
+                          "image": "house3.jpg",
+                          "price": "310,000",
+                        },
+                      ],
+                    },
+                    Object {
+                      "agent": "Jane Doe",
+                      "city": "Chicago",
+                      "name": "Oakland",
+                      "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+                      "rating": "5.0",
+                      "starts": 5,
+                      "state": "IL",
+                      "topListings": Array [
+                        Object {
+                          "address": "221B Baker Street",
+                          "image": "house4.jpg",
+                          "price": "$375,000",
+                        },
+                        Object {
+                          "address": "425 Grove Street",
+                          "image": "house5.jpg",
+                          "price": "$290,000",
+                        },
+                        Object {
+                          "address": "124 Conch Street",
+                          "image": "house6.jpg",
+                          "price": "310,000",
+                        },
+                      ],
+                    },
+                  ]
+                }
+              >
+                <styled.div
+                  className="search-results-wrapper"
+                >
+                  <StyledComponent
+                    className="search-results-wrapper"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": false,
+                          "lastClassName": "eJajwH",
+                          "rules": Array [
+                            "
+    position: absolute;
+    width: 100%;
+    background-color: #f1f1f1;
+    left: -1px;
+    border: 1px solid #dfdfdf;
+
+    h5 {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 12px 15px;
+        margin: 0;
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    li {
+        width: 100%;
+        position: relative;
+    }
+
+    .result-link {
+        padding: 14px 15px;
+        display: block;
+        font-size: 14px;
+        color: ",
+                            [Function],
+                            ";
+        border-bottom: 1px solid #dfdfdf;
+        z-index: 400;
+    }
+
+    .result-type {
+        float: right;
+    }
+
+    .clear-right {
+        clear: right;
+        display: block;
+    }
+
+    .top-finds-link {
+        position: absolute;
+        color: ",
+                            [Function],
+                            ";
+        font-size: 14px;
+        top: 14px;
+        right: 120px;
+        z-index: 500;
+        transition: color .35s;
+    }
+
+    .top-finds-link:hover {
+        color: ",
+                            [Function],
+                            ";
+    }
+
+    .result-item {
+        height: auto;
+    }
+
+    .result-top-finds {
+        padding: 12px 15px;
+        background-color: #dfdfdf;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        display: none;
+        transition: transform .35s, z-index .35s;
+        position: relative;
+        z-index: -1;
+        transform: translateY(-100%);
+    }
+
+    .result-top-finds-active {
+        z-index: 300;
+        display: grid;
+        transform: translateY(0);
+    }
+
+    p {
+        margin: 0;
+        width: 100%;
+    }
+
+    .top-find-list {
+        
+    }
+
+    .top-find {
+        padding: 10px;
+        display: inline-block;
+        font-size: 14px;
+        background-color: #f1f1f1;
+    }
+
+    .top-find-image {
+        width: 100%;
+    }
+
+    .top-find-price {
+
+    }
+
+    .top-find-address {
+        
+    }
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="search-results-wrapper sc-bdVaJa eJajwH"
+                    >
+                      <div>
+                        <h5>
+                          Recently Viewed
+                        </h5>
+                        <ul>
+                          <SearchResult
+                            key="0"
+                            neighborhood={
+                              Object {
+                                "agent": "John Doe",
+                                "city": "Chicago",
+                                "name": "Beverly",
+                                "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+                                "rating": "5.0",
+                                "starts": 5,
+                                "state": "IL",
+                                "topListings": Array [
+                                  Object {
+                                    "address": "4 Privet Drive",
+                                    "image": "house1.jpg",
+                                    "price": "$375,000",
+                                  },
+                                  Object {
+                                    "address": "1060 West Addison Street",
+                                    "image": "house2.jpg",
+                                    "price": "$290,000",
+                                  },
+                                  Object {
+                                    "address": "1323 Mockingbird Lane",
+                                    "image": "house3.jpg",
+                                    "price": "310,000",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <li
+                              className="result-item"
+                            >
+                              <a
+                                className="result-link"
+                                href=""
+                              >
+                                <span
+                                  className="neighborhood-location"
+                                >
+                                  Beverly
+                                  , 
+                                  Chicago
+                                  , IL
+                                </span>
+                                <span
+                                  className="result-type"
+                                >
+                                  Neighborhood
+                                </span>
+                                <span
+                                  className="clear-right"
+                                />
+                              </a>
+                              <a
+                                className="top-finds-link"
+                                href=""
+                                id="js-top-find-toggle"
+                                onClick={[Function]}
+                              >
+                                Top Finds
+                              </a>
+                              <div
+                                className="result-top-finds"
+                                id="js-top-find"
+                              >
+                                <TopFind
+                                  key="0"
+                                  listing={
+                                    Object {
+                                      "address": "4 Privet Drive",
+                                      "image": "house1.jpg",
+                                      "price": "$375,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $375,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      4 Privet Drive
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="1"
+                                  listing={
+                                    Object {
+                                      "address": "1060 West Addison Street",
+                                      "image": "house2.jpg",
+                                      "price": "$290,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $290,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      1060 West Addison Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="2"
+                                  listing={
+                                    Object {
+                                      "address": "1323 Mockingbird Lane",
+                                      "image": "house3.jpg",
+                                      "price": "310,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      310,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      1323 Mockingbird Lane
+                                    </p>
+                                  </a>
+                                </TopFind>
+                              </div>
+                            </li>
+                          </SearchResult>
+                          <SearchResult
+                            key="1"
+                            neighborhood={
+                              Object {
+                                "agent": "Jane Doe",
+                                "city": "Chicago",
+                                "name": "Oakland",
+                                "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+                                "rating": "5.0",
+                                "starts": 5,
+                                "state": "IL",
+                                "topListings": Array [
+                                  Object {
+                                    "address": "221B Baker Street",
+                                    "image": "house4.jpg",
+                                    "price": "$375,000",
+                                  },
+                                  Object {
+                                    "address": "425 Grove Street",
+                                    "image": "house5.jpg",
+                                    "price": "$290,000",
+                                  },
+                                  Object {
+                                    "address": "124 Conch Street",
+                                    "image": "house6.jpg",
+                                    "price": "310,000",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <li
+                              className="result-item"
+                            >
+                              <a
+                                className="result-link"
+                                href=""
+                              >
+                                <span
+                                  className="neighborhood-location"
+                                >
+                                  Oakland
+                                  , 
+                                  Chicago
+                                  , IL
+                                </span>
+                                <span
+                                  className="result-type"
+                                >
+                                  Neighborhood
+                                </span>
+                                <span
+                                  className="clear-right"
+                                />
+                              </a>
+                              <a
+                                className="top-finds-link"
+                                href=""
+                                id="js-top-find-toggle"
+                                onClick={[Function]}
+                              >
+                                Top Finds
+                              </a>
+                              <div
+                                className="result-top-finds"
+                                id="js-top-find"
+                              >
+                                <TopFind
+                                  key="0"
+                                  listing={
+                                    Object {
+                                      "address": "221B Baker Street",
+                                      "image": "house4.jpg",
+                                      "price": "$375,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $375,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      221B Baker Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="1"
+                                  listing={
+                                    Object {
+                                      "address": "425 Grove Street",
+                                      "image": "house5.jpg",
+                                      "price": "$290,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $290,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      425 Grove Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="2"
+                                  listing={
+                                    Object {
+                                      "address": "124 Conch Street",
+                                      "image": "house6.jpg",
+                                      "price": "310,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      310,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      124 Conch Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                              </div>
+                            </li>
+                          </SearchResult>
+                        </ul>
+                      </div>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </SearchResultsList>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Blog
+              </a>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Sign Up
+              </a>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Log In
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <span
+          className="clear-right"
+        />
+      </header>
+    </StyledComponent>
+  </styled.header>
+</Header>
+`;
+
+exports[`<Dashboard /> updates via props 1`] = `
+<Header
+  count={50}
+  neighborhoods={
+    Array [
+      Object {
+        "agent": "John Doe",
+        "city": "Chicago",
+        "name": "Beverly",
+        "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+        "rating": "5.0",
+        "starts": 5,
+        "state": "IL",
+        "topListings": Array [
+          Object {
+            "address": "4 Privet Drive",
+            "image": "house1.jpg",
+            "price": "$375,000",
+          },
+          Object {
+            "address": "1060 West Addison Street",
+            "image": "house2.jpg",
+            "price": "$290,000",
+          },
+          Object {
+            "address": "1323 Mockingbird Lane",
+            "image": "house3.jpg",
+            "price": "310,000",
+          },
+        ],
+      },
+      Object {
+        "agent": "Jane Doe",
+        "city": "Chicago",
+        "name": "Oakland",
+        "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+        "rating": "5.0",
+        "starts": 5,
+        "state": "IL",
+        "topListings": Array [
+          Object {
+            "address": "221B Baker Street",
+            "image": "house4.jpg",
+            "price": "$375,000",
+          },
+          Object {
+            "address": "425 Grove Street",
+            "image": "house5.jpg",
+            "price": "$290,000",
+          },
+          Object {
+            "address": "124 Conch Street",
+            "image": "house6.jpg",
+            "price": "310,000",
+          },
+        ],
+      },
+    ]
+  }
+>
+  <styled.header>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "hQwUEd",
+            "rules": Array [
+              "
+    max-height: 47px;
+    padding: .625rem 1.875rem;
+    position: relative;
+    z-index: 500;
+    border-bottom: 1px solid #dfdfdf;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        
+    }
+
+    .logo {
+        display: inline-block;
+        width: 235px;
+        height: 47px;
+        background: url(",
+              "neighborhoods-logo.png",
+              ") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-nav {
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+
+    .clear-right {
+        clear: right;
+        display: block;
+    }
+
+    .input-wrapper-long {
+        width: 636px !important;
+        max-width: 636px !important;
+        border 1px solid #dfdfdf !important;
+        padding-left: 5px !important;
+        padding-right: 35px;
+
+        .search-icon {
+            background-color: ",
+              [Function],
+              ";
+            color: ",
+              [Function],
+              ";
+            top: 0 !important;
+            left: calc(100% - 40px) !important;
+            padding: 9px 12px;
+            cursor: pointer;
+            transition: background-color .35s;
+            border-bottom: 3px solid ",
+              [Function],
+              ";
+        }
+
+        .search-icon:hover {
+            background-color: ",
+              [Function],
+              ";
+        }
+    }
+
+    .input-wrapper {
+        display: inline-block;
+        max-width: 420px;
+        width: 420px;
+        padding-left: 35px;
+        position: relative;
+        border: 1px solid ",
+              [Function],
+              ";
+        height: 40px;
+
+        .search-icon {
+            position: absolute;
+            display: inline-block;
+            top: 10px;
+            left: 10px;
+        }
+
+        .header-search {
+            width: 100%;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            height: calc(100% - 2px);
+            position: relative;
+            bottom: 0px;
+            right: 2px;
+        }
+
+        .header-search::placeholder{ 
+            color: ",
+              [Function],
+              ";
+        }
+
+        .header-search:active,
+        .header-search:focus {
+            outline: none;
+        }
+
+    }
+
+    .right-links {
+        margin-left: 32px;
+        color: ",
+              [Function],
+              ";
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 600;
+        transition: color .35s;
+    }
+
+    .right-links:hover {
+        color: ",
+              [Function],
+              ";
+    }
+
+    .search-results-wrapper {
+        display: none;
+    }
+
+",
+            ],
+          },
+          "displayName": "styled.header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <header
+        className="sc-bwzfXH hQwUEd"
+      >
+        <a
+          className="logo"
+          href=""
+        />
+        <nav
+          className="main-nav"
+        >
+          <ul
+            className="nav-list"
+          >
+            <li
+              className="input-wrapper"
+            >
+              <input
+                className="header-search"
+                id="js-header-search"
+                onFocus={[Function]}
+                placeholder="Search neighborhood, address, city, school, zip, MLS #"
+                type="text"
+              />
+              <span
+                className="search-icon"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon="search"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              </span>
+              <SearchResultsList
+                hideResults={[Function]}
+                neighborhoods={
+                  Array [
+                    Object {
+                      "agent": "John Doe",
+                      "city": "Chicago",
+                      "name": "Beverly",
+                      "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+                      "rating": "5.0",
+                      "starts": 5,
+                      "state": "IL",
+                      "topListings": Array [
+                        Object {
+                          "address": "4 Privet Drive",
+                          "image": "house1.jpg",
+                          "price": "$375,000",
+                        },
+                        Object {
+                          "address": "1060 West Addison Street",
+                          "image": "house2.jpg",
+                          "price": "$290,000",
+                        },
+                        Object {
+                          "address": "1323 Mockingbird Lane",
+                          "image": "house3.jpg",
+                          "price": "310,000",
+                        },
+                      ],
+                    },
+                    Object {
+                      "agent": "Jane Doe",
+                      "city": "Chicago",
+                      "name": "Oakland",
+                      "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+                      "rating": "5.0",
+                      "starts": 5,
+                      "state": "IL",
+                      "topListings": Array [
+                        Object {
+                          "address": "221B Baker Street",
+                          "image": "house4.jpg",
+                          "price": "$375,000",
+                        },
+                        Object {
+                          "address": "425 Grove Street",
+                          "image": "house5.jpg",
+                          "price": "$290,000",
+                        },
+                        Object {
+                          "address": "124 Conch Street",
+                          "image": "house6.jpg",
+                          "price": "310,000",
+                        },
+                      ],
+                    },
+                  ]
+                }
+              >
+                <styled.div
+                  className="search-results-wrapper"
+                >
+                  <StyledComponent
+                    className="search-results-wrapper"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": false,
+                          "lastClassName": "eJajwH",
+                          "rules": Array [
+                            "
+    position: absolute;
+    width: 100%;
+    background-color: #f1f1f1;
+    left: -1px;
+    border: 1px solid #dfdfdf;
+
+    h5 {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 12px 15px;
+        margin: 0;
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    li {
+        width: 100%;
+        position: relative;
+    }
+
+    .result-link {
+        padding: 14px 15px;
+        display: block;
+        font-size: 14px;
+        color: ",
+                            [Function],
+                            ";
+        border-bottom: 1px solid #dfdfdf;
+        z-index: 400;
+    }
+
+    .result-type {
+        float: right;
+    }
+
+    .clear-right {
+        clear: right;
+        display: block;
+    }
+
+    .top-finds-link {
+        position: absolute;
+        color: ",
+                            [Function],
+                            ";
+        font-size: 14px;
+        top: 14px;
+        right: 120px;
+        z-index: 500;
+        transition: color .35s;
+    }
+
+    .top-finds-link:hover {
+        color: ",
+                            [Function],
+                            ";
+    }
+
+    .result-item {
+        height: auto;
+    }
+
+    .result-top-finds {
+        padding: 12px 15px;
+        background-color: #dfdfdf;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        display: none;
+        transition: transform .35s, z-index .35s;
+        position: relative;
+        z-index: -1;
+        transform: translateY(-100%);
+    }
+
+    .result-top-finds-active {
+        z-index: 300;
+        display: grid;
+        transform: translateY(0);
+    }
+
+    p {
+        margin: 0;
+        width: 100%;
+    }
+
+    .top-find-list {
+        
+    }
+
+    .top-find {
+        padding: 10px;
+        display: inline-block;
+        font-size: 14px;
+        background-color: #f1f1f1;
+    }
+
+    .top-find-image {
+        width: 100%;
+    }
+
+    .top-find-price {
+
+    }
+
+    .top-find-address {
+        
+    }
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="search-results-wrapper sc-bdVaJa eJajwH"
+                    >
+                      <div>
+                        <h5>
+                          Recently Viewed
+                        </h5>
+                        <ul>
+                          <SearchResult
+                            key="0"
+                            neighborhood={
+                              Object {
+                                "agent": "John Doe",
+                                "city": "Chicago",
+                                "name": "Beverly",
+                                "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+                                "rating": "5.0",
+                                "starts": 5,
+                                "state": "IL",
+                                "topListings": Array [
+                                  Object {
+                                    "address": "4 Privet Drive",
+                                    "image": "house1.jpg",
+                                    "price": "$375,000",
+                                  },
+                                  Object {
+                                    "address": "1060 West Addison Street",
+                                    "image": "house2.jpg",
+                                    "price": "$290,000",
+                                  },
+                                  Object {
+                                    "address": "1323 Mockingbird Lane",
+                                    "image": "house3.jpg",
+                                    "price": "310,000",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <li
+                              className="result-item"
+                            >
+                              <a
+                                className="result-link"
+                                href=""
+                              >
+                                <span
+                                  className="neighborhood-location"
+                                >
+                                  Beverly
+                                  , 
+                                  Chicago
+                                  , IL
+                                </span>
+                                <span
+                                  className="result-type"
+                                >
+                                  Neighborhood
+                                </span>
+                                <span
+                                  className="clear-right"
+                                />
+                              </a>
+                              <a
+                                className="top-finds-link"
+                                href=""
+                                id="js-top-find-toggle"
+                                onClick={[Function]}
+                              >
+                                Top Finds
+                              </a>
+                              <div
+                                className="result-top-finds"
+                                id="js-top-find"
+                              >
+                                <TopFind
+                                  key="0"
+                                  listing={
+                                    Object {
+                                      "address": "4 Privet Drive",
+                                      "image": "house1.jpg",
+                                      "price": "$375,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $375,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      4 Privet Drive
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="1"
+                                  listing={
+                                    Object {
+                                      "address": "1060 West Addison Street",
+                                      "image": "house2.jpg",
+                                      "price": "$290,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $290,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      1060 West Addison Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="2"
+                                  listing={
+                                    Object {
+                                      "address": "1323 Mockingbird Lane",
+                                      "image": "house3.jpg",
+                                      "price": "310,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      310,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      1323 Mockingbird Lane
+                                    </p>
+                                  </a>
+                                </TopFind>
+                              </div>
+                            </li>
+                          </SearchResult>
+                          <SearchResult
+                            key="1"
+                            neighborhood={
+                              Object {
+                                "agent": "Jane Doe",
+                                "city": "Chicago",
+                                "name": "Oakland",
+                                "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+                                "rating": "5.0",
+                                "starts": 5,
+                                "state": "IL",
+                                "topListings": Array [
+                                  Object {
+                                    "address": "221B Baker Street",
+                                    "image": "house4.jpg",
+                                    "price": "$375,000",
+                                  },
+                                  Object {
+                                    "address": "425 Grove Street",
+                                    "image": "house5.jpg",
+                                    "price": "$290,000",
+                                  },
+                                  Object {
+                                    "address": "124 Conch Street",
+                                    "image": "house6.jpg",
+                                    "price": "310,000",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <li
+                              className="result-item"
+                            >
+                              <a
+                                className="result-link"
+                                href=""
+                              >
+                                <span
+                                  className="neighborhood-location"
+                                >
+                                  Oakland
+                                  , 
+                                  Chicago
+                                  , IL
+                                </span>
+                                <span
+                                  className="result-type"
+                                >
+                                  Neighborhood
+                                </span>
+                                <span
+                                  className="clear-right"
+                                />
+                              </a>
+                              <a
+                                className="top-finds-link"
+                                href=""
+                                id="js-top-find-toggle"
+                                onClick={[Function]}
+                              >
+                                Top Finds
+                              </a>
+                              <div
+                                className="result-top-finds"
+                                id="js-top-find"
+                              >
+                                <TopFind
+                                  key="0"
+                                  listing={
+                                    Object {
+                                      "address": "221B Baker Street",
+                                      "image": "house4.jpg",
+                                      "price": "$375,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $375,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      221B Baker Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="1"
+                                  listing={
+                                    Object {
+                                      "address": "425 Grove Street",
+                                      "image": "house5.jpg",
+                                      "price": "$290,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $290,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      425 Grove Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="2"
+                                  listing={
+                                    Object {
+                                      "address": "124 Conch Street",
+                                      "image": "house6.jpg",
+                                      "price": "310,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      310,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      124 Conch Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                              </div>
+                            </li>
+                          </SearchResult>
+                        </ul>
+                      </div>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </SearchResultsList>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Blog
+              </a>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Sign Up
+              </a>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Log In
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <span
+          className="clear-right"
+        />
+      </header>
+    </StyledComponent>
+  </styled.header>
+</Header>
+`;
+
+exports[`<Dashboard /> updates via props 2`] = `
+<Header
+  count={10}
+  neighborhoods={
+    Array [
+      Object {
+        "agent": "John Doe",
+        "city": "Chicago",
+        "name": "Beverly",
+        "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+        "rating": "5.0",
+        "starts": 5,
+        "state": "IL",
+        "topListings": Array [
+          Object {
+            "address": "4 Privet Drive",
+            "image": "house1.jpg",
+            "price": "$375,000",
+          },
+          Object {
+            "address": "1060 West Addison Street",
+            "image": "house2.jpg",
+            "price": "$290,000",
+          },
+          Object {
+            "address": "1323 Mockingbird Lane",
+            "image": "house3.jpg",
+            "price": "310,000",
+          },
+        ],
+      },
+      Object {
+        "agent": "Jane Doe",
+        "city": "Chicago",
+        "name": "Oakland",
+        "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+        "rating": "5.0",
+        "starts": 5,
+        "state": "IL",
+        "topListings": Array [
+          Object {
+            "address": "221B Baker Street",
+            "image": "house4.jpg",
+            "price": "$375,000",
+          },
+          Object {
+            "address": "425 Grove Street",
+            "image": "house5.jpg",
+            "price": "$290,000",
+          },
+          Object {
+            "address": "124 Conch Street",
+            "image": "house6.jpg",
+            "price": "310,000",
+          },
+        ],
+      },
+    ]
+  }
+>
+  <styled.header>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "hQwUEd",
+            "rules": Array [
+              "
+    max-height: 47px;
+    padding: .625rem 1.875rem;
+    position: relative;
+    z-index: 500;
+    border-bottom: 1px solid #dfdfdf;
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        
+    }
+
+    .logo {
+        display: inline-block;
+        width: 235px;
+        height: 47px;
+        background: url(",
+              "neighborhoods-logo.png",
+              ") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-nav {
+        float: right;
+        position: relative;
+        top: 4px;
+    }
+
+    .clear-right {
+        clear: right;
+        display: block;
+    }
+
+    .input-wrapper-long {
+        width: 636px !important;
+        max-width: 636px !important;
+        border 1px solid #dfdfdf !important;
+        padding-left: 5px !important;
+        padding-right: 35px;
+
+        .search-icon {
+            background-color: ",
+              [Function],
+              ";
+            color: ",
+              [Function],
+              ";
+            top: 0 !important;
+            left: calc(100% - 40px) !important;
+            padding: 9px 12px;
+            cursor: pointer;
+            transition: background-color .35s;
+            border-bottom: 3px solid ",
+              [Function],
+              ";
+        }
+
+        .search-icon:hover {
+            background-color: ",
+              [Function],
+              ";
+        }
+    }
+
+    .input-wrapper {
+        display: inline-block;
+        max-width: 420px;
+        width: 420px;
+        padding-left: 35px;
+        position: relative;
+        border: 1px solid ",
+              [Function],
+              ";
+        height: 40px;
+
+        .search-icon {
+            position: absolute;
+            display: inline-block;
+            top: 10px;
+            left: 10px;
+        }
+
+        .header-search {
+            width: 100%;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            height: calc(100% - 2px);
+            position: relative;
+            bottom: 0px;
+            right: 2px;
+        }
+
+        .header-search::placeholder{ 
+            color: ",
+              [Function],
+              ";
+        }
+
+        .header-search:active,
+        .header-search:focus {
+            outline: none;
+        }
+
+    }
+
+    .right-links {
+        margin-left: 32px;
+        color: ",
+              [Function],
+              ";
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 600;
+        transition: color .35s;
+    }
+
+    .right-links:hover {
+        color: ",
+              [Function],
+              ";
+    }
+
+    .search-results-wrapper {
+        display: none;
+    }
+
+",
+            ],
+          },
+          "displayName": "styled.header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <header
+        className="sc-bwzfXH hQwUEd"
+      >
+        <a
+          className="logo"
+          href=""
+        />
+        <nav
+          className="main-nav"
+        >
+          <ul
+            className="nav-list"
+          >
+            <li
+              className="input-wrapper"
+            >
+              <input
+                className="header-search"
+                id="js-header-search"
+                onFocus={[Function]}
+                placeholder="Search neighborhood, address, city, school, zip, MLS #"
+                type="text"
+              />
+              <span
+                className="search-icon"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon="search"
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              </span>
+              <SearchResultsList
+                hideResults={[Function]}
+                neighborhoods={
+                  Array [
+                    Object {
+                      "agent": "John Doe",
+                      "city": "Chicago",
+                      "name": "Beverly",
+                      "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+                      "rating": "5.0",
+                      "starts": 5,
+                      "state": "IL",
+                      "topListings": Array [
+                        Object {
+                          "address": "4 Privet Drive",
+                          "image": "house1.jpg",
+                          "price": "$375,000",
+                        },
+                        Object {
+                          "address": "1060 West Addison Street",
+                          "image": "house2.jpg",
+                          "price": "$290,000",
+                        },
+                        Object {
+                          "address": "1323 Mockingbird Lane",
+                          "image": "house3.jpg",
+                          "price": "310,000",
+                        },
+                      ],
+                    },
+                    Object {
+                      "agent": "Jane Doe",
+                      "city": "Chicago",
+                      "name": "Oakland",
+                      "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+                      "rating": "5.0",
+                      "starts": 5,
+                      "state": "IL",
+                      "topListings": Array [
+                        Object {
+                          "address": "221B Baker Street",
+                          "image": "house4.jpg",
+                          "price": "$375,000",
+                        },
+                        Object {
+                          "address": "425 Grove Street",
+                          "image": "house5.jpg",
+                          "price": "$290,000",
+                        },
+                        Object {
+                          "address": "124 Conch Street",
+                          "image": "house6.jpg",
+                          "price": "310,000",
+                        },
+                      ],
+                    },
+                  ]
+                }
+              >
+                <styled.div
+                  className="search-results-wrapper"
+                >
+                  <StyledComponent
+                    className="search-results-wrapper"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": false,
+                          "lastClassName": "eJajwH",
+                          "rules": Array [
+                            "
+    position: absolute;
+    width: 100%;
+    background-color: #f1f1f1;
+    left: -1px;
+    border: 1px solid #dfdfdf;
+
+    h5 {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 12px 15px;
+        margin: 0;
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    li {
+        width: 100%;
+        position: relative;
+    }
+
+    .result-link {
+        padding: 14px 15px;
+        display: block;
+        font-size: 14px;
+        color: ",
+                            [Function],
+                            ";
+        border-bottom: 1px solid #dfdfdf;
+        z-index: 400;
+    }
+
+    .result-type {
+        float: right;
+    }
+
+    .clear-right {
+        clear: right;
+        display: block;
+    }
+
+    .top-finds-link {
+        position: absolute;
+        color: ",
+                            [Function],
+                            ";
+        font-size: 14px;
+        top: 14px;
+        right: 120px;
+        z-index: 500;
+        transition: color .35s;
+    }
+
+    .top-finds-link:hover {
+        color: ",
+                            [Function],
+                            ";
+    }
+
+    .result-item {
+        height: auto;
+    }
+
+    .result-top-finds {
+        padding: 12px 15px;
+        background-color: #dfdfdf;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        display: none;
+        transition: transform .35s, z-index .35s;
+        position: relative;
+        z-index: -1;
+        transform: translateY(-100%);
+    }
+
+    .result-top-finds-active {
+        z-index: 300;
+        display: grid;
+        transform: translateY(0);
+    }
+
+    p {
+        margin: 0;
+        width: 100%;
+    }
+
+    .top-find-list {
+        
+    }
+
+    .top-find {
+        padding: 10px;
+        display: inline-block;
+        font-size: 14px;
+        background-color: #f1f1f1;
+    }
+
+    .top-find-image {
+        width: 100%;
+    }
+
+    .top-find-price {
+
+    }
+
+    .top-find-address {
+        
+    }
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="search-results-wrapper sc-bdVaJa eJajwH"
+                    >
+                      <div>
+                        <h5>
+                          Recently Viewed
+                        </h5>
+                        <ul>
+                          <SearchResult
+                            key="0"
+                            neighborhood={
+                              Object {
+                                "agent": "John Doe",
+                                "city": "Chicago",
+                                "name": "Beverly",
+                                "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+                                "rating": "5.0",
+                                "starts": 5,
+                                "state": "IL",
+                                "topListings": Array [
+                                  Object {
+                                    "address": "4 Privet Drive",
+                                    "image": "house1.jpg",
+                                    "price": "$375,000",
+                                  },
+                                  Object {
+                                    "address": "1060 West Addison Street",
+                                    "image": "house2.jpg",
+                                    "price": "$290,000",
+                                  },
+                                  Object {
+                                    "address": "1323 Mockingbird Lane",
+                                    "image": "house3.jpg",
+                                    "price": "310,000",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <li
+                              className="result-item"
+                            >
+                              <a
+                                className="result-link"
+                                href=""
+                              >
+                                <span
+                                  className="neighborhood-location"
+                                >
+                                  Beverly
+                                  , 
+                                  Chicago
+                                  , IL
+                                </span>
+                                <span
+                                  className="result-type"
+                                >
+                                  Neighborhood
+                                </span>
+                                <span
+                                  className="clear-right"
+                                />
+                              </a>
+                              <a
+                                className="top-finds-link"
+                                href=""
+                                id="js-top-find-toggle"
+                                onClick={[Function]}
+                              >
+                                Top Finds
+                              </a>
+                              <div
+                                className="result-top-finds"
+                                id="js-top-find"
+                              >
+                                <TopFind
+                                  key="0"
+                                  listing={
+                                    Object {
+                                      "address": "4 Privet Drive",
+                                      "image": "house1.jpg",
+                                      "price": "$375,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $375,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      4 Privet Drive
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="1"
+                                  listing={
+                                    Object {
+                                      "address": "1060 West Addison Street",
+                                      "image": "house2.jpg",
+                                      "price": "$290,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $290,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      1060 West Addison Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="2"
+                                  listing={
+                                    Object {
+                                      "address": "1323 Mockingbird Lane",
+                                      "image": "house3.jpg",
+                                      "price": "310,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      310,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      1323 Mockingbird Lane
+                                    </p>
+                                  </a>
+                                </TopFind>
+                              </div>
+                            </li>
+                          </SearchResult>
+                          <SearchResult
+                            key="1"
+                            neighborhood={
+                              Object {
+                                "agent": "Jane Doe",
+                                "city": "Chicago",
+                                "name": "Oakland",
+                                "overview": "Bordering the coast of Lake Michigan, Oakland is a quiet neighborhood on Chicago's south side. With scenic views of the glittering lake and Chicago's towering skyline, this promising neighborhood is sure to continue growing in the coming years.",
+                                "rating": "5.0",
+                                "starts": 5,
+                                "state": "IL",
+                                "topListings": Array [
+                                  Object {
+                                    "address": "221B Baker Street",
+                                    "image": "house4.jpg",
+                                    "price": "$375,000",
+                                  },
+                                  Object {
+                                    "address": "425 Grove Street",
+                                    "image": "house5.jpg",
+                                    "price": "$290,000",
+                                  },
+                                  Object {
+                                    "address": "124 Conch Street",
+                                    "image": "house6.jpg",
+                                    "price": "310,000",
+                                  },
+                                ],
+                              }
+                            }
+                          >
+                            <li
+                              className="result-item"
+                            >
+                              <a
+                                className="result-link"
+                                href=""
+                              >
+                                <span
+                                  className="neighborhood-location"
+                                >
+                                  Oakland
+                                  , 
+                                  Chicago
+                                  , IL
+                                </span>
+                                <span
+                                  className="result-type"
+                                >
+                                  Neighborhood
+                                </span>
+                                <span
+                                  className="clear-right"
+                                />
+                              </a>
+                              <a
+                                className="top-finds-link"
+                                href=""
+                                id="js-top-find-toggle"
+                                onClick={[Function]}
+                              >
+                                Top Finds
+                              </a>
+                              <div
+                                className="result-top-finds"
+                                id="js-top-find"
+                              >
+                                <TopFind
+                                  key="0"
+                                  listing={
+                                    Object {
+                                      "address": "221B Baker Street",
+                                      "image": "house4.jpg",
+                                      "price": "$375,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $375,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      221B Baker Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="1"
+                                  listing={
+                                    Object {
+                                      "address": "425 Grove Street",
+                                      "image": "house5.jpg",
+                                      "price": "$290,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      $290,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      425 Grove Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                                <TopFind
+                                  key="2"
+                                  listing={
+                                    Object {
+                                      "address": "124 Conch Street",
+                                      "image": "house6.jpg",
+                                      "price": "310,000",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="top-find"
+                                    href=""
+                                  >
+                                    <img
+                                      className="top-find-image"
+                                      src="house1.jpg"
+                                    />
+                                    <p
+                                      className="top-find-price"
+                                    >
+                                      310,000
+                                    </p>
+                                    <p
+                                      className="top-find-address"
+                                    >
+                                      124 Conch Street
+                                    </p>
+                                  </a>
+                                </TopFind>
+                              </div>
+                            </li>
+                          </SearchResult>
+                        </ul>
+                      </div>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </SearchResultsList>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Blog
+              </a>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Sign Up
+              </a>
+            </li>
+            <li
+              className="right-item"
+            >
+              <a
+                className="right-links"
+                href=""
+              >
+                Log In
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <span
+          className="clear-right"
+        />
+      </header>
+    </StyledComponent>
+  </styled.header>
+</Header>
+`;

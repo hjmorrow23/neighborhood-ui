@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> matches the snapshot 1`] = `
+<SearchResult
+  neighborhood={
+    Object {
+      "agent": "John Doe",
+      "city": "Chicago",
+      "name": "Beverly",
+      "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+      "rating": "5.0",
+      "starts": 5,
+      "state": "IL",
+      "topListings": Array [
+        Object {
+          "address": "4 Privet Drive",
+          "image": "house1.jpg",
+          "price": "$375,000",
+        },
+        Object {
+          "address": "1060 West Addison Street",
+          "image": "house2.jpg",
+          "price": "$290,000",
+        },
+        Object {
+          "address": "1323 Mockingbird Lane",
+          "image": "house3.jpg",
+          "price": "310,000",
+        },
+      ],
+    }
+  }
+>
+  <li
+    className="result-item"
+  >
+    <a
+      className="result-link"
+      href=""
+    >
+      <span
+        className="neighborhood-location"
+      >
+        Beverly
+        , 
+        Chicago
+        , IL
+      </span>
+      <span
+        className="result-type"
+      >
+        Neighborhood
+      </span>
+      <span
+        className="clear-right"
+      />
+    </a>
+    <a
+      className="top-finds-link"
+      href=""
+      id="js-top-find-toggle"
+      onClick={[Function]}
+    >
+      Top Finds
+    </a>
+    <div
+      className="result-top-finds"
+      id="js-top-find"
+    >
+      <TopFind
+        key="0"
+        listing={
+          Object {
+            "address": "4 Privet Drive",
+            "image": "house1.jpg",
+            "price": "$375,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            $375,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            4 Privet Drive
+          </p>
+        </a>
+      </TopFind>
+      <TopFind
+        key="1"
+        listing={
+          Object {
+            "address": "1060 West Addison Street",
+            "image": "house2.jpg",
+            "price": "$290,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            $290,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            1060 West Addison Street
+          </p>
+        </a>
+      </TopFind>
+      <TopFind
+        key="2"
+        listing={
+          Object {
+            "address": "1323 Mockingbird Lane",
+            "image": "house3.jpg",
+            "price": "310,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            310,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            1323 Mockingbird Lane
+          </p>
+        </a>
+      </TopFind>
+    </div>
+  </li>
+</SearchResult>
+`;
+
+exports[`<Dashboard /> updates via props 1`] = `
+<SearchResult
+  count={50}
+  neighborhood={
+    Object {
+      "agent": "John Doe",
+      "city": "Chicago",
+      "name": "Beverly",
+      "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+      "rating": "5.0",
+      "starts": 5,
+      "state": "IL",
+      "topListings": Array [
+        Object {
+          "address": "4 Privet Drive",
+          "image": "house1.jpg",
+          "price": "$375,000",
+        },
+        Object {
+          "address": "1060 West Addison Street",
+          "image": "house2.jpg",
+          "price": "$290,000",
+        },
+        Object {
+          "address": "1323 Mockingbird Lane",
+          "image": "house3.jpg",
+          "price": "310,000",
+        },
+      ],
+    }
+  }
+>
+  <li
+    className="result-item"
+  >
+    <a
+      className="result-link"
+      href=""
+    >
+      <span
+        className="neighborhood-location"
+      >
+        Beverly
+        , 
+        Chicago
+        , IL
+      </span>
+      <span
+        className="result-type"
+      >
+        Neighborhood
+      </span>
+      <span
+        className="clear-right"
+      />
+    </a>
+    <a
+      className="top-finds-link"
+      href=""
+      id="js-top-find-toggle"
+      onClick={[Function]}
+    >
+      Top Finds
+    </a>
+    <div
+      className="result-top-finds"
+      id="js-top-find"
+    >
+      <TopFind
+        key="0"
+        listing={
+          Object {
+            "address": "4 Privet Drive",
+            "image": "house1.jpg",
+            "price": "$375,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            $375,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            4 Privet Drive
+          </p>
+        </a>
+      </TopFind>
+      <TopFind
+        key="1"
+        listing={
+          Object {
+            "address": "1060 West Addison Street",
+            "image": "house2.jpg",
+            "price": "$290,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            $290,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            1060 West Addison Street
+          </p>
+        </a>
+      </TopFind>
+      <TopFind
+        key="2"
+        listing={
+          Object {
+            "address": "1323 Mockingbird Lane",
+            "image": "house3.jpg",
+            "price": "310,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            310,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            1323 Mockingbird Lane
+          </p>
+        </a>
+      </TopFind>
+    </div>
+  </li>
+</SearchResult>
+`;
+
+exports[`<Dashboard /> updates via props 2`] = `
+<SearchResult
+  count={10}
+  neighborhood={
+    Object {
+      "agent": "John Doe",
+      "city": "Chicago",
+      "name": "Beverly",
+      "overview": "Beverly is famous for its architecture, extensive green spaces, and historic charm. This South Side neighborhood is also known for its Irish-style pubs along Western Avenue, as well as its unique shopping district that stretches down 103rd Street. Beverly offers an eclectic environment like a big city, yet provides a distinct small-town vibe. The neighborhood has a variety of homes with plenty of backyard space for outdoor recreation.",
+      "rating": "5.0",
+      "starts": 5,
+      "state": "IL",
+      "topListings": Array [
+        Object {
+          "address": "4 Privet Drive",
+          "image": "house1.jpg",
+          "price": "$375,000",
+        },
+        Object {
+          "address": "1060 West Addison Street",
+          "image": "house2.jpg",
+          "price": "$290,000",
+        },
+        Object {
+          "address": "1323 Mockingbird Lane",
+          "image": "house3.jpg",
+          "price": "310,000",
+        },
+      ],
+    }
+  }
+>
+  <li
+    className="result-item"
+  >
+    <a
+      className="result-link"
+      href=""
+    >
+      <span
+        className="neighborhood-location"
+      >
+        Beverly
+        , 
+        Chicago
+        , IL
+      </span>
+      <span
+        className="result-type"
+      >
+        Neighborhood
+      </span>
+      <span
+        className="clear-right"
+      />
+    </a>
+    <a
+      className="top-finds-link"
+      href=""
+      id="js-top-find-toggle"
+      onClick={[Function]}
+    >
+      Top Finds
+    </a>
+    <div
+      className="result-top-finds"
+      id="js-top-find"
+    >
+      <TopFind
+        key="0"
+        listing={
+          Object {
+            "address": "4 Privet Drive",
+            "image": "house1.jpg",
+            "price": "$375,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            $375,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            4 Privet Drive
+          </p>
+        </a>
+      </TopFind>
+      <TopFind
+        key="1"
+        listing={
+          Object {
+            "address": "1060 West Addison Street",
+            "image": "house2.jpg",
+            "price": "$290,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            $290,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            1060 West Addison Street
+          </p>
+        </a>
+      </TopFind>
+      <TopFind
+        key="2"
+        listing={
+          Object {
+            "address": "1323 Mockingbird Lane",
+            "image": "house3.jpg",
+            "price": "310,000",
+          }
+        }
+      >
+        <a
+          className="top-find"
+          href=""
+        >
+          <img
+            className="top-find-image"
+            src="house1.jpg"
+          />
+          <p
+            className="top-find-price"
+          >
+            310,000
+          </p>
+          <p
+            className="top-find-address"
+          >
+            1323 Mockingbird Lane
+          </p>
+        </a>
+      </TopFind>
+    </div>
+  </li>
+</SearchResult>
+`;
