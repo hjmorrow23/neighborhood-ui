@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faStar, faHeart, faSearch, faShareSquare } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faStar, faHeart, faSearch, faShareSquare);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

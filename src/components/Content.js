@@ -5,7 +5,7 @@ import NeighborhoodAgent from './NeighborhoodAgent';
 
 const Content = () => {
     return (
-        <section>
+        <section className="content">
             <LowerNav></LowerNav>
             <NeighborhoodDetails></NeighborhoodDetails>
             <NeighborhoodAgent></NeighborhoodAgent>

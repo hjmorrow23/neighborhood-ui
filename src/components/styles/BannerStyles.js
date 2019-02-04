@@ -53,6 +53,16 @@ const BannerStyles = styled.div`
             color: ${props => props.theme.primary};
             text-decoration: none;
             margin: 0 8px; 
+            transition: color .35s, background-color .35s;
+
+            span {
+                margin-left: 5px;
+            }
+        }
+
+        a:hover {
+            background-color: ${props => props.theme.primary};
+            color: ${props => props.theme.white};
         }
     }
 

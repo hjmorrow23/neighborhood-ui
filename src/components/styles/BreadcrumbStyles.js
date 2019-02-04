@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 const BreadcrumbStyles = styled.div`
-    padding: .625rem 1.875rem .75rem;
+    padding: .5rem 1.875rem .5rem;
 
     ul {
         list-style: none;
         padding: 0;
         margin: 0;
+        position: relative;
+        bottom: 2px;
     }
 
     a {

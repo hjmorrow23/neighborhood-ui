@@ -4,6 +4,7 @@ import styled, { ThemeProvider, injectGlobal } from "styled-components";
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Content from './components/Content';
+import neighborhoods from './neighborhoods';
 
 const theme = {
   white: '#fff',
@@ -20,7 +21,7 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <div className="App">
-          <Header />
+          <Header neighborhoods={neighborhoods} />
           <Hero />
           <Content />
         </div>

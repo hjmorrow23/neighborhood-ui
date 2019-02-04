@@ -3,3 +3,7 @@
 .App {
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.content {
+  position: relative;
+}

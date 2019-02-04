@@ -1,14 +1,16 @@
 import React from 'react';
+import img from "../assets/img/house1.jpg";
 
-const TopFind = () => {
+
+const TopFind = props => {
     return (
-        <li>
-            <a href="">
-                <img src="" />
-                <p></p>
-                <p></p>
+        
+            <a href="" className="top-find">
+                <img className="top-find-image" src={img} />
+                <p className="top-find-price">{props.listing.price}</p>
+                <p className="top-find-address">{props.listing.address}</p>
             </a>
-        </li>
+        
     );
 };
 
